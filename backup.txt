@@ -16,7 +16,7 @@
         <title>Jack Bellamy</title>
     </head>
     <body>
-        <!-- ==================== HEADER ====================
+        <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Jack Bellamy</a>
@@ -47,7 +47,7 @@
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
                 <div class="nav__btns">
-                    Theme change button 
+                    <!-- Theme change button -->
                     <i class="uil uil-moon change-theme" id="theme-button"></i>
 
                     <div class="nav__toggle" id="nav-toggle">
@@ -55,12 +55,12 @@
                     </div>
                 </div>
             </nav>
-        </header> -->
+        </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             
-            <!-- ==================== HOME ====================
+            <!--==================== HOME ====================-->
             <section class="home section" id="home">
                 <style>
                     img {
@@ -86,7 +86,7 @@
                             </a>
                         </div>
 
-                        <div class="home__img" id="home__img">
+                        <!-- <div class="home__img" id="home__img">
                             <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M37.4,-67C48.9,-58,59,-49,66.1,-37.8C73.3,-26.6,77.5,
@@ -106,7 +106,7 @@
                                     <image class="home__blob-img" x="32" y="-12" xlink:href="assets/img/jack_1.png" />
                                 </g>
                             </svg>
-                        </div>
+                        </div> -->
 
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'm Jack</h1>
@@ -117,22 +117,22 @@
                             </a>
                         </div> 
                         
-                        <div class="home__picture"> 
+                        <!-- <div class="home__picture"> -->
                             <img src="assets/img/jack_1.png" controls>
                             
-                        </div>
+                        <!-- </div> -->
                     </div>
 
-                     <div class="home__scroll">
+                    <!-- <div class="home__scroll">
                         <a href="#about" class="home__scroll-button button--flex">
                             <span class="home__scroll-name">Scroll down</span>
                             <i class="uil uil-angle-down home__scroll-arrow"></i>
                         </a>
-                    </div> 
+                    </div> -->
                 </div>
-            </section> -->
+            </section>
 
-            <!-- ==================== ABOUT ====================
+            <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
                 <h2 class="section__title">About Me</h2>
                     <span class="section__subtitle">My introduction</span>
@@ -160,11 +160,11 @@
 
                         </div>
                     </div>
-            </section> -->
+            </section>
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Project Portfolio</h2>
+                <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
                 
                 <div class="portfolio__container container swiper">
@@ -178,24 +178,19 @@
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            
-                            <div class="about__bullets">
-                                <h3 class="about__title">1. Creating a Virtual Experiment to Investigate Habituation in Fire Drills</h3>
-                                <p class="about__points">
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                </p>
-                                <br>
-                            </div>
-                        
-                            <!-- <div class="portfolio__data">
+
+                            <div class="portfolio__data">
                                 <h3 class="portfolio__title">1. Creating a Virtual Experiment to Investigate Habituation in Fire Drills</h3>
                                 <p class="portfolio__description">
-                                    The experiment was created using Java, the aim of the experiment was for participants to repeat the same maze 5 times in the controlled environment.
+                                    The experiment was created using Java, the aim of the experiment was for participants to repeat the same maze 5 times in the controlled environment. 
                                 </p>
-                            </div> -->
+
+                                <div class="about__buttons">
+                                    <a href="assets/pdf/Dissertation_report.pdf" class="button button--flex">
+                                        Download Report<i class="uil uil-file-download-alt button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
 
                             <video src="assets/mp4/EvacGame_video.mp4" controls>
                                 Your browser does not support the video tag.
@@ -218,29 +213,18 @@
                         <!--==================== PORTFOLIO 2 ====================-->
                         <div class="portfolio__content grid swiper-slide">
 
-                            <div class="about__bullets">
-                                <h3 class="about__title">2. Analysing the Success of NFL Offensive Plays</h3>
-                                <p class="about__points">
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                </p>
-                                <br>
-                            </div>
-
-                            <!-- <div class="portfolio__data">
+                            <div class="portfolio__data">
                                 <h3 class="portfolio__title">2. Analysing the Success of NFL Offensive Plays</h3>
                                 <p class="portfolio__description">
                                     Using different machine learning and statistical techniques allowed me to analyse the different plays. In this example I used field control analysis to determine the success of a play.
                                 </p>
 
-                                <!-- <div class="about__buttons">
+                                <div class="about__buttons">
                                     <a href="assets/pdf/NFL_report.pdf" class="button button--flex">
                                         Download Report<i class="uil uil-file-download-alt button__icon"></i>
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <video src="assets/mp4/NFL_video.mp4" controls>
                                 Your browser does not support the video tag.
@@ -249,29 +233,18 @@
                         <!--==================== PORTFOLIO 3 ====================-->
                         <div class="portfolio__content grid swiper-slide">
 
-                            <div class="about__bullets">
-                                <h3 class="about__title">3. Detecting Dirty Solar Panels</h3>
-                                <p class="about__points">
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                    <li>&#x2022; .</li>
-                                </p>
-                                <br>
-                            </div>
-
-                            <!-- <div class="portfolio__data">
+                            <div class="portfolio__data">
                                 <h3 class="portfolio__title">3. Detecting Dirty Solar Panels</h3>
                                 <p class="portfolio__description">
                                     Training an artifical intelligence network to detect dirty solar panels allowed video footage to be analysed, this saves time and money for the company.
                                 </p>
 
-                                <!-- <div class="about__buttons">
+                                <div class="about__buttons">
                                     <a href="assets/pdf/Solar_report.pdf" class="button button--flex">
                                         Download Report<i class="uil uil-file-download-alt button__icon"></i>
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <video src="assets/mp4/solar_video.mp4" controls>
                                 Your browser does not support the video tag.
@@ -292,7 +265,7 @@
             </section>
 
 
-            <!-- ==================== CONTACT ME ====================
+            <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contact Me</h2>
                 <span class="section__subtitle">Get in touch</span>
@@ -325,7 +298,7 @@
                         </div>
                     </div>
 
-                     <form action="" class="contact__form grid">
+                    <!-- <form action="" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
@@ -351,12 +324,12 @@
                                 <i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
-            </section> -->
+            </section>
         </main>
 
-        <!-- ==================== FOOTER ==================== 
+        <!--==================== FOOTER ====================-->
         <footer class="footer">
             <div class="footer__bg">
                 <div class="footer__container container grid">
@@ -396,14 +369,14 @@
 
                 <p class="footer__copy">&#169; Jack. All rights reserved</p>
             </div>
-        </footer> -->
+        </footer>
         
-        <!-- ==================== SCROLL TOP ====================
+        <!--==================== SCROLL TOP ====================-->
         <a href="#" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a> -->
+        </a>
 
-        <!-- ==================== SWIPER JS ==================== -->
+        <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
